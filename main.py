@@ -66,7 +66,7 @@ cur_time = start_time
 for i in range(num_cards):
     card = Label(x, 170, 70, 100,YELLOW) # карточка
     card.outline(BLUE, 10) # синяя рамка карточки
-    card.set_text('CLICK', 26) # надпись на карточке
+    card.set_text('ЖМИ', 26) # надпись на карточке
     cards.append(card) # добавляем карточку в список
     x += 100 # смещаемся вправо
  
